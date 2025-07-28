@@ -36,7 +36,7 @@ produtosRouter.post("/produtos", async (req, res) => {
 
 produtosRouter.put("/produtos/:id", async (req, res) => {
   try {
-    const flag = await update(req.params.id, eq.body);
+    const flag = await update(req.params.id, req.body);
     if (flag) {
       return res.status(200).json({ msg: "Produto Alterado." });
     } else {
