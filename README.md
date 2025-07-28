@@ -1,14 +1,16 @@
 # Controle de Estoque
-Projeto inicial de uma simples API em NodeJs para o Bootcamp da SoulCode. Turma: RN5 - Full Stack (React e Node) | GP.
+Aplicação inicial de uma simples **API em NodeJs** desenvolvido no Bootcamp da SoulCode. Turma: RN5 - Full Stack (React e Node) | GP.
+Objetivo do projeto é cadastrar, listar, buscar e remover produtos e usuários do banco de dados.
 
 
-## Dependências do Sistema
- * NodeJs 24.2.0
- * NPM 11.4.2
- * Express 5.1.0
- * cors 2.8.5
- * Firebase 13.4.0
+## Tecnologias Utilizadas
+ * NodeJs v24.2.0
+ * NPM v11.4.2
+ * Express v5.1.0
+ * cors v2.8.5
+ * Firebase v13.4.0
 
+---
 
 ## Replicando o Projeto
 
@@ -24,10 +26,15 @@ Inicializar o servidor
   npm run dev
 ```
 
+---
 
 ## Referências da API
 
 No projeto existem duas API's, uma sobre os produtos cadastrados e outra sobre os usuários cadastrados.
+
+ Para visualizar os endpoints de listagens basta acessar:
+ - https://controle-estoque-fp8d.onrender.com/produtos
+ - https://controle-estoque-fp8d.onrender.com/users
 
 
 ### **Endpoints de Produtos**
