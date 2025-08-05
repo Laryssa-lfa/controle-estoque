@@ -8,7 +8,7 @@ Objetivo do projeto é cadastrar, listar, buscar e remover produtos e usuários 
  * NPM v11.4.2
  * Express v5.1.0
  * cors v2.8.5
- * Firebase v13.4.0
+ * Firebase Admin v13.4.0
 
 ---
 
